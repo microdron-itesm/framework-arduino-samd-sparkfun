@@ -146,7 +146,7 @@ const PinDescription g_APinDescription[]=
 
 
   // A4 Pin remapped to sercom
-  { PORTA,  5, PIO_SERCOM, PIN_ATTR_DIGITAL, No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_5}, // ADC/AIN[5]
+  { PORTA,  5, PIO_SERCOM_ALT, PIN_ATTR_DIGITAL, No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_5}, // ADC/AIN[5]
 
   // 20..21 I2C pins (SDA/SCL and also EDBG:SDA/SCL)
   // ----------------------
